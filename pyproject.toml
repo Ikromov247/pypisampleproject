@@ -4,12 +4,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "example_package_marcussisyphus"
-version = "0.0.1"
+version = "0.0.4"
 authors = [
     {name = "Sukhrob", email = "example@example.com"},
 ]
 description = "Example package"
-readme = "README.MD"
+readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
