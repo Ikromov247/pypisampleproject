@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_package_marcussisyphus"
+version = "0.0.1"
+authors = [
+    {name = "Sukhrob", email = "example@example.com"},
+]
+description = "Example package"
+readme = "README.MD"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE"]
+
+
+[project.urls]
+Homepage = "https://github.com/Ikromov247/pypisampleproject"
+Issues = "https://github.com/Ikromov247/pypisampleproject/issues"
